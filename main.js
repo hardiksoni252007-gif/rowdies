@@ -10,3 +10,26 @@ window.onload = function() {
     }, 1000); // 1000 milliseconds = 1 seconds
 
 };
+let dash = document.getElementById('dash');
+let link = document.getElementById('link');
+let dev = document.getElementById('dev');
+let port = document.getElementById('port');
+
+if(window.innerWidth < 921){
+    dev.innerText = "Dashboard"
+}
+else{
+    dev.addEventListener('click', ()=>{
+        window.location = "portfolio.html"
+    });
+}
+
+dev.addEventListener('click', ()=>{
+    if (window.innerWidth < 921) {
+        port.style.display = "flex"
+        dash.style.display = "flex"
+        link.style.display = "none"
+    } 
+
+})
+
