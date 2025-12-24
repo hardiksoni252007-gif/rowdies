@@ -89,3 +89,103 @@ a{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
 }
+@media (max-width: 991px){
+    body{
+        background: url("phone.webp");
+        background-size: cover;
+    }
+    .pannel{
+        position: absolute;
+        left: 6%;
+        top: 20px;
+        width: 90%;
+        height: 65px;
+        border-radius: 10px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .items{
+        width: 90%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width: 70px;
+        margin-right: 10px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    .logo img{
+        width: 65px;
+        height: 65px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .logo p{
+        display: none;
+    }
+    .detail{
+        width: 600px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        /* border: 1px solid grey;
+        padding: 2px; */
+    }
+    .name button{
+        width: 70px;
+        height: 30px;
+        border-radius: 25px;
+        padding: 5px;
+        margin-left: 7px;
+        outline: none;
+        border: 1px solid black;
+        background: linear-gradient(135deg,
+            #1e3c72,  /* deep navy blue */
+            #2a5298,  /* medium blue */
+            #6dd5ed   /* light sky blue */
+        );
+        color: white;
+        font-weight: 600;
+        font-size: 10px;
+        transition: 0.1s ease;
+    }
+    .name button:hover{
+        cursor: pointer;
+    }
+    .name button:active{
+        transform: scale(0.9);
+    }
+    .container{
+        position: absolute;
+        left: 6%;
+        top: 12%;
+        margin-bottom: 10px;
+        width: 90%;
+        height: 3600px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, 
+        #ff9a9e, 
+        #fad0c4, 
+        #fbc2eb
+        );
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
