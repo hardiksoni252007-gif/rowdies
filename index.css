@@ -129,6 +129,9 @@ footer{
 
 }
 @media (max-width: 991px){
+    body{
+        background-color: black;
+    }
     .container{
         position: absolute;
         top: 20%;
@@ -183,3 +186,4 @@ footer{
         font-weight: 600;
     }
 }
+
