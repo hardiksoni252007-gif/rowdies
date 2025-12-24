@@ -6,7 +6,7 @@ window.onload = function() {
     // After 3 seconds
     setTimeout(function() {
         document.getElementById("detail").innerText = "Welcome to our website dashboard";
-        document.getElementById("detail").style.color = "#87cefa"
+        document.getElementById("detail").style.color = "black"
     }, 1000); // 1000 milliseconds = 1 seconds
 
 };
@@ -32,4 +32,5 @@ dev.addEventListener('click', ()=>{
     } 
 
 })
+
 
