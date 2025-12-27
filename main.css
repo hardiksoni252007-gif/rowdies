@@ -5,6 +5,11 @@
     --accent-glow: rgb(141, 180, 157);
     --text: #ffffff;
 }
+.bot-pannel{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 body{
     display: inline-block;
     margin: 0;
@@ -100,10 +105,10 @@ a{
 }
 .container{
     position: absolute;
-    left: 5%;
-    top: 12%;
-    width: 90%;
-    height: 10vh;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    height: 100px;
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -215,21 +220,20 @@ a{
 
 }
 @media (max-width: 991px){
-    body{
-        background: url("phone.webp");
-        background-size: cover;
+    i{
+        margin-right: 0px;
     }
     .pannel{
         position: absolute;
-        left: 6%;
-        top: 20px;
-        width: 90%;
-        height: 65px;
-        border-radius: 10px;
-        background: white;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 85px;
+        border-radius: 0;
+        background: var(--darker-bg);
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
     .items{
         width: 90%;
@@ -289,6 +293,7 @@ a{
         font-weight: 600;
         font-size: 10px;
         transition: 0.1s ease;
+        display: none;
     }
     .name button:hover{
         cursor: pointer;
@@ -298,20 +303,20 @@ a{
     }
     .dashboard{
         position: absolute;
-        top: 25px;
-        left: 2%;
-        width: 92%;
+        top: 0;
+        left: 0;
+        width: 100%;
         padding: 10px;
         height: 550px;
-        border-radius: 10px;
+        border-radius: 0;
         display: none;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background-color: white;
+        background-color: transparent;
         color: black;
         }
-    .dashboard h2{
+    /* .dashboard h2{
         margin: 0;
         margin-top: 10px;
         color: #205583;
@@ -321,46 +326,23 @@ a{
         position: relative;
         padding: 5px;
         font-size: large;
-    }
-    .dashboard button{
-        width: 200px;
-        height: 60px;
-        border-radius: 10px;
-        font-size: 15px;
-        font-weight: 500;
-        outline: none;
-        border: 2px solid black;
-        background: linear-gradient(135deg, 
-        #ff9a9e, 
-        #fad0c4, 
-        #a1c4fd, 
-        #c2e9fb, 
-        #fbc2eb, 
-        #fda085
-        );
-        color: black;
-        display: flex;
-        font-display: row;
-        align-items: center;
-        cursor: pointer;
-        transition: 0.1s ease;  
-    }
-    .dashboard button:active{
-        transform: scale(0.9);
-    }
-
+    } */
+    
     .links{
         position: absolute;
-        top: 25px;
-        left: 2%;
+        top: 5px;
+        left: 1%;
         width: 92%;
         padding: 10px;
-        height: 550px;
+        height: 500px;
+        border: 2px solid var(--accent);
         border-radius: 10px;
-        background: linear-gradient(135deg, 
+        background: linear-gradient(270deg, 
         #ff9a9e, 
         #fad0c4, 
-        #fbc2eb
+        #fad0c4, 
+        #fbc2eb, 
+        #a6c1ee
         );
     }
     .links h2{
@@ -379,18 +361,45 @@ a{
         text-align: center;
     }
     .bottom{
+        display: none;
+    }
+    .bot-pannel{
         position: absolute;
-        left: 5%;
-        bottom: 20px;
+        padding-left: 10px;
+        left: 4%;
+        bottom: 5%;
         width: 90%;
-        height: 80px;
-        border-radius: 10px;
-        background-color: white;
-        color: #ff6ec7; 
+        height: 85px;
+        border-radius: 20px;
+        background: var(--darker-bg);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bot-pannel button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        outline: none;
+        border: 2px solid black;
+        background: linear-gradient(270deg, 
+        #ff9a9e, 
+        #fad0c4, 
+        #fad0c4, 
+        #fbc2eb, 
+        #a6c1ee
+        );
+        color: var(--accent);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 10px;
+        cursor: pointer;
+        transition: 0.1s ease;  
+    }
+    .bot-pannel button:active{
+        transform: scale(0.9);
     }
     
 }    
