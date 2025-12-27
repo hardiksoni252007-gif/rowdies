@@ -336,6 +336,7 @@ a{
         left: 1%;
         width: 92%;
         padding: 10px;
+        margin: 0;
         height: 500px;
         border: 2px solid var(--accent);
         border-radius: 10px;
@@ -405,4 +406,5 @@ a{
     }
     
 }    
+
 
