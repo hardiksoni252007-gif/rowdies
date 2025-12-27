@@ -121,8 +121,8 @@ a{
     width: 200px;
     height: 480px;
     padding: 10px;
-    border-radius: 10px;
     margin-left: 5rem;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -171,8 +171,8 @@ a{
     width: 1100px;
     padding: 10px;
     height: 480px;
-    border-radius: 10px;
     margin-left: 5rem;
+    border-radius: 10px;
     background: linear-gradient(270deg, 
     #ff9a9e, 
     #fad0c4, 
@@ -303,6 +303,17 @@ a{
     .name button:active{
         transform: scale(0.9);
     }
+    .container{
+        position: absolute;
+        left: 0;
+        top: 15%;
+        width: 100%;
+        height: 100px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .dashboard{
         position: absolute;
         top: 0;
@@ -336,8 +347,8 @@ a{
         left: 1%;
         width: 92%;
         padding: 10px;
-        margin: 0;
         height: 500px;
+        margin: 0;
         border: 2px solid var(--accent);
         border-radius: 10px;
         background: linear-gradient(270deg, 
@@ -368,7 +379,6 @@ a{
     }
     .bot-pannel{
         position: absolute;
-        padding-left: 10px;
         left: 4%;
         bottom: 5%;
         width: 90%;
@@ -406,5 +416,3 @@ a{
     }
     
 }    
-
-
