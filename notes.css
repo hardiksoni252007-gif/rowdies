@@ -151,7 +151,8 @@ a{
     }
     .detail{
         width: 600px;
-        font-size: 8px;
+        font-size: 10px;
+        color: var(--accent);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -209,7 +210,6 @@ a{
     }
     .bot-pannel{
         position: fixed;
-        padding-left: 10px;
         left: 4%;
         bottom: 5%;
         width: 90%;
