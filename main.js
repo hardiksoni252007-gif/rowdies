@@ -20,7 +20,7 @@ if(window.innerWidth < 921){
 }
 else{
     dev.addEventListener('click', ()=>{
-        window.location = "portfolio.html"
+        window.location = "web.html"
     });
 }
 
@@ -32,5 +32,6 @@ dev.addEventListener('click', ()=>{
     } 
 
 })
+
 
 
