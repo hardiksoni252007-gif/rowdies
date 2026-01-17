@@ -245,4 +245,30 @@ a{
     .bot-pannel button:active{
         transform: scale(0.9);
     }
+    .container button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        outline: none;
+        border: 2px solid black;
+        background: linear-gradient(270deg, 
+        #ff9a9e, 
+        #fad0c4, 
+        #fad0c4, 
+        #fbc2eb, 
+        #a6c1ee
+        );
+        color: var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.1s ease;  
+    }
+    .container button:active{
+        transform: scale(0.9);
+    }
 }    
+
