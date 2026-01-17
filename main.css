@@ -379,11 +379,9 @@ a{
     }
     .bot-pannel{
         position: absolute;
-        left: 4%;
-        bottom: 5%;
-        width: 90%;
+        bottom: 0%;
+        width: 100%;
         height: 85px;
-        border-radius: 20px;
         background: var(--darker-bg);
         display: flex;
         align-items: center;
@@ -416,3 +414,4 @@ a{
     }
     
 }    
+
