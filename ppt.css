@@ -272,6 +272,9 @@ a{
 
 }
 @media (max-width: 991px){
+    .dashboard{
+        display: none;
+    }
     i{
         margin-right: 0px;
     }
@@ -376,13 +379,34 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .links{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 92%;
+    padding: 10px;
+    height: 480px;
+    margin-left: 0px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, 
+    #ff9a9e, 
+    #fad0c4, 
+    #fad0c4, 
+    #fbc2eb, 
+    #a6c1ee
+    );
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+
+}
     .bot-pannel{
         position: fixed;
-        left: 4%;
-        bottom: 5%;
-        width: 90%;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
         height: 85px;
-        border-radius: 20px;
+        border-radius: 0px;
         background: var(--darker-bg);
         display: flex;
         align-items: center;
@@ -419,7 +443,7 @@ a{
         padding: 10px;
         border-radius: 10px;
         margin-top: 15px;
-        margin-left: 5px;
+        margin-left: 8%;
         border: 2px solid var(--accent);
         gap: 10px;
         background: linear-gradient(270deg, 
@@ -442,7 +466,7 @@ a{
         padding: 10px;
         border-radius: 10px;
         margin-top: 15px;
-        margin-left: 5px;
+        margin-left: 8%;
         border: 2px solid var(--accent);
         gap: 10px;
         background: linear-gradient(270deg, 
