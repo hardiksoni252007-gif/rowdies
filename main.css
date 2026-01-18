@@ -69,6 +69,13 @@ a{
     justify-content: center;
     align-items: center;
 }
+.bottom .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50%;
+}
 .name{
     display: flex;
     justify-content: center;
@@ -219,9 +226,13 @@ a{
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: 0%;
 
 }
 @media (max-width: 991px){
+    body{
+        min-height: 400px;
+    }
     i{
         margin-right: 0px;
     }
@@ -414,4 +425,3 @@ a{
     }
     
 }    
-
