@@ -290,22 +290,28 @@ a{
         padding: 2px; */
     }
     .name button{
-        width: 65px;
-        height: 40px;
-        border-radius: 10px;
-        padding: 5px;
-        margin-left: 7px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: 500;
         outline: none;
-        border: 1px solid black;
-        background: linear-gradient(135deg,
-            #1e3c72,  /* deep navy blue */
-            #2a5298,  /* medium blue */
-            #6dd5ed   /* light sky blue */
+        border: 2px solid black;
+        background: linear-gradient(270deg, 
+        #ff9a9e, 
+        #fad0c4, 
+        #fad0c4, 
+        #fbc2eb, 
+        #a6c1ee
         );
-        color: white;
-        font-weight: 600;
-        font-size: 10px;
-        transition: 0.1s ease;
+        color: var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.1s ease; 
+    }
+    .name #dev{
         display: none;
     }
     .name button:hover{
