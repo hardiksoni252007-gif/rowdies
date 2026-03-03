@@ -9,7 +9,7 @@ function Login(){
     let password = "@000";
 
     if(user == username && pass == password){
-        window.location.href = "/college_web/main.html";
+        window.location.href = "main.html";
         face.style.color="darkgreen";
         lock.style.color="darkgreen";
         msg.innerHTML="Login";
