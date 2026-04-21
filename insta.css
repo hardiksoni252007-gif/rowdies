@@ -256,7 +256,10 @@ a{
     rgba(150, 255, 180, 1) 100%
   );
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
 
 }
